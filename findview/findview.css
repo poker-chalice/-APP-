@@ -1,0 +1,446 @@
+.container{
+    height: 100%;
+    width: 750px;
+}
+.container>header{
+    height: 995px;
+    width: 750px;
+    display: flex;
+    flex-direction:column ;
+}
+.container>header>.time_Banner{
+    height: 88px;
+    width: 750px;
+}
+.container>header>.nav_Banner{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container>header>.nav_Banner>.search_Find{
+    width: 160px;
+    height: 59px;
+    padding: 13px 376px 16px 30px;
+    display: flex;
+    flex-direction:column ;
+}
+.container>header>.nav_Banner>.search_Find>span{
+    font-size: 40px;
+    line-height: 59px;
+    font-family:Source Han Sans CN;
+    z-index: 2;
+    position: absolute;
+}
+.container>header>.nav_Banner>.search_Find>div{
+    z-index: 1;
+    top: 28px;
+    background: #60A7F6;
+    height: 16px;
+    width: 156px;
+    opacity: 0.48;
+    position: relative;
+}
+.container>header>.nav_Banner>img{
+    height: 44px;
+    width: 44px;
+    padding: 21px 24px 23px 24px;
+}
+.container>header>.adv_Img{
+    height: 923px;
+    width: 690px;
+    margin-top:31px ;
+    margin-left:30px ;
+}
+.container>header>.adv_Img>img{
+    height: 820px;
+    width: 690px;
+    border-radius: 8px;
+}
+.container>section{
+    height: 100%;
+    width: 750px;
+    margin-top: 72px;
+}
+.container>section>.hot_Create{
+    height:619px;
+    width: 750px;
+}
+.container>section>.hot_Create>.main_Title{
+    height: 54px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.container>section>.hot_Create>.main_Title>.just_Title{
+    width: 218px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.container>section>.hot_Create>.main_Title>.just_Title>.decorate{
+    height: 40px;
+    width: 8px;
+    align-items: center;
+    background-color: #60A7F6;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.container>section>.hot_Create>.main_Title>.just_Title>span{
+    font-size: 36px;
+    font-family: Source Han Sans CN;
+    font-weight: Medium;
+    color:#1E2023;
+    margin-left: 8px;
+    height: 54px;
+    line-height: 54px;
+    width: 180px;
+}
+.container>section>.hot_Create>.main_Title>.vice_Title{
+    height: 54px;
+    width: 131px;
+    display: flex;
+    flex-direction: row;
+    padding: 9px 25px 9px 339px;
+}
+.container>section>.hot_Create>.main_Title>.vice_Title>span{
+    height: 36px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    color: #60A7F6;
+}
+.container>section>.hot_Create>.main_Title>.vice_Title>img{
+    height: 32px;
+    width: 32px;
+    margin-left: 3px;
+}
+.container>section>.hot_Create>.kind_Select{
+    display: flex;
+    flex-direction: row;
+    height: 490px;
+    width: 750px;
+}
+.container>section>.hot_Create>.kind_Select>a{
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 306px;
+    margin-left: 23px;
+    padding:24px 7px 51px 7px;
+}
+.container>section>.hot_Create>.kind_Select>a>.back_Img{
+    width:306px;
+    height: 206px;
+    z-index: 1;
+}
+.container>section>.hot_Create>.kind_Select>a>.head_Img{
+    height: 118px; 
+    width: 118px;
+    z-index: 10;
+    position: relative;
+    left: 94px;
+    top: -56px;
+}
+.container>section>.hot_Create>.kind_Select>a>.text_Inform{
+    height: 144px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:-43px;
+}
+.container>section>.hot_Create>.kind_Select>a>.text_Inform>.head_Title{
+    font-family: Source Han Sans CN;
+    font-size: 28px;
+    color: #1E2023;
+    height: 41px;
+    width: 140px;
+    line-height: 41px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-left: 83px;
+}
+.container>section>.hot_Create>.kind_Select>a>.text_Inform>.middle_Title{
+    height: 20px;
+    width: 140px;
+    line-height: 20px;
+    font-family: Source Han Sans CN;
+    color: #8A93A1;
+    font-size: 20px;
+    padding-left: 83px;
+}
+.container>section>.hot_Create>.kind_Select>a>.text_Inform>.tag_Sign{
+    height: 40px;
+    width: 80px;
+    background-color: #60A7F6;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family:Source Han Sans CN ;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 110px;
+    line-height: 40px;
+}
+.container>section>.hot_Select{
+    height: 100%;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.container>section>.hot_Select>.main_Title{
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    width: 750px;
+}
+.container>section>.hot_Select>.main_Title>.decorate{
+    height: 40px;
+    width: 8px;
+    background-color: #60A7F6;
+    border-radius: 8px;
+    margin-top: 7px;
+    margin-left: 30px;
+    align-items: center;
+}
+.container>section>.hot_Select>.main_Title>span{
+    width: 216px;
+    height: 54px;
+    line-height: 54px;
+    font-size:Source Han Sans CN ;
+    font-size: 36px;
+    margin-left: 8px;
+}
+.container>section>.hot_Select>.week_Select{
+    height:390px;
+    width: 750px;
+}
+.container>section>.hot_Select>.week_Select>img{
+    height: 346px;
+    width: 690px;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.container>section>.hot_Select>.week_Select>.tag_Title{
+    height: 77px;
+    width: 140px;
+    display: flex;
+    flex-direction:column;
+    z-index: 10;
+    position: relative;
+    top: -218px;
+    left:308px ;
+    text-align: center;
+}
+.container>section>.hot_Select>.week_Select>.tag_Title>.thisWeek{
+    font-family: Source Han Sans CN;
+    font-size: 28px;
+    color: #FFFFFF;
+    height: 41px;
+    width: 112px;
+    margin-bottom: 9px;
+    line-height: 41px;
+    padding-left: 11px;
+}
+.container>section>.hot_Select>.week_Select>.tag_Title>.thisTime{
+    height: 27px;
+    width: 140px;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    color: #FFFFFF;
+}
+.container>section>.hot_Select>.other_Select{
+    height: 410px;
+    width: 690px;
+    display: flex;
+    flex-direction: row;
+    margin-left:16px;
+    margin-top: 20px;
+}
+.container>section>.hot_Select>.other_Select>a{
+    height: 338px;
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+}
+.container>section>.hot_Select>.other_Select>a>img{
+    height: 338px;
+    width: 338px;
+    z-index: 1;
+    border-radius: 8px;
+}
+.container>section>.hot_Select>.other_Select>a>.tag_Title{
+    width: 162px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    left:88px;
+    top: -206px;
+}
+.container>section>.hot_Select>.other_Select>a>.tag_Title>.tag_Main{
+    height: 41px;
+    width: 112px;
+    font-family: Source Han Sans CN;
+    font-size: 28px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+.container>section>.hot_Select>.other_Select>a>.tag_Title>.tag_Vice{
+    height: 27px;
+    width: 162px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN;
+    line-height: 27px;
+}
+.container>section>.hot_Select>.clockIn{
+    height: 100%;
+    width: 750px;
+}
+.container>section>.hot_Select>.clockIn>.main_Title{
+    height: 54px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.just_Title{
+    width: 218px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.just_Title>.decorate{
+    height: 40px;
+    width: 8px;
+    align-items: center;
+    background-color: #60A7F6;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.just_Title>span{
+    font-size: 36px;
+    font-family: Source Han Sans CN;
+    font-weight: Medium;
+    color:#1E2023;
+    margin-left: 8px;
+    height: 54px;
+    line-height: 54px;
+    width: 144px;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.vice_Title{
+    height: 54px;
+    width: 131px;
+    display: flex;
+    flex-direction: row;
+    padding: 9px 25px 9px 339px;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.vice_Title>span{
+    height: 36px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    color: #60A7F6;
+}
+.container>section>.hot_Select>.clockIn>.main_Title>.vice_Title>img{
+    height: 32px;
+    width: 32px;
+    margin-left: 3px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place{
+    width: 690px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left:16px;
+    margin-top: 24px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a{
+    height: 430px;
+    width: 338px;
+    padding-left:14px;
+    display: flex;
+    flex-direction: column;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.place_Inform{
+    height: 338px;
+    width: 338px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.place_Inform>img{
+    height: 338px;
+    width: 338px;
+    z-index: 1;
+    border-radius: 8px; 
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.place_Inform>.more_Inform{
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    position: relative; 
+    left:287px;
+    top: -37px;
+    height: 27px;
+    width: 40px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.place_Inform>.more_Inform>img{
+    height: 28px;
+    width: 28px;
+    padding-right: 1px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.place_Inform>.more_Inform>span{
+    height: 27px;
+    width: 11px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.message_Inform{
+    width: 338px;
+    height: 36px;
+    line-height: 36px;
+    font-size: Source Han Sans CN;
+    color: #1E2023;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.user_Inform{
+    height: 30px;
+    width: 338px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.user_Inform>img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    padding-right: 8px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.user_Inform>.user_PickName{
+    height: 30px;
+    width: 80px;
+    font-family: Source Han Sans CN;
+    font-size: 20px;
+    line-height: 30px;
+    color: #68707A;
+    font-weight: Regular;
+    padding-right: 175px;
+}
+.container>section>.hot_Select>.clockIn>.clockIn_Place>a>.user_Inform>.user_Place{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-family: Source Han Sans CN;
+    color: #68707A;
+    font-size:20px;
+}
+
+
+

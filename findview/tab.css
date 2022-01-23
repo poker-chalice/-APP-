@@ -1,0 +1,56 @@
+.container>footer{
+    height: 166px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.container>footer>.tab{
+    height:98px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.container>footer>.tab>a{
+    display: flex;
+    flex-direction: column;
+    padding: 54px 51px 42px 51px;
+    height: 81px;
+    width: 48px;
+
+}
+.container>footer>.tab>.release{
+    height: 78px;
+    height: 78px;
+    margin: 54px  36px 0px 36px;
+}
+.container>footer>.tab>.release>img{
+    height: 78px;
+    width: 78px;
+}
+.container>footer>.tab>a>img{
+    height:48px ;
+    width: 48px;
+    
+}
+.container>footer>.tab>a>span{
+    text-align: center;
+    height: 29px;
+    width: 40px;
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+
+}
+.container>footer>.other_Tab{
+    height: 68px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.container>footer>.other_Tab>span{
+    height: 10px;
+    width: 268px;
+    margin-left: 241px;
+    margin-top: 29px;
+    background-color: black;
+}
+
