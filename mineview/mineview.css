@@ -1,0 +1,433 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100%;
+    width: 750px;
+}
+.container>header{
+    height: 583px;
+    width: 750px;
+}
+.container>header>.time_Banner{
+    height: 88px;
+    width: 750px;
+    position: relative;
+    z-index: 3;
+}
+.container>header>.mine{
+    height: 583px;
+    width:750px;
+    z-index: 1;
+    position: relative;
+    top: -88px;
+}
+.container>header>.mine>.mine_BgImg{
+    height: 457px;
+    width: 750px;
+    z-index: 1;
+    top: -88px;
+}
+.container>header>.mine>.mine_BgImg>img{
+    height: 457px;
+    width: 750px;
+    z-index: 1;
+}
+.container>header>.mine>.inform_Bar{
+    height: 275px;
+    width: 690px;
+    box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.08);
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    opacity: 1;
+    margin-left: 30px;
+    top: 400px;
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFF;
+    top: -131px;
+    display: flex; 
+    flex-direction: column;
+}
+.container>header>.mine>.inform_Bar>.head_Inform{
+    height: 131px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Img{
+    height: 80px;
+    width: 80px;
+    padding: 34px 8px 0px 30px ;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Img>img{
+    height: 80px;
+    width: 80px;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag{
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:8px ;
+    padding-top: 30px;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.nick{
+    width: 326px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.nick>.nick_Name{
+    width: 196px;
+    height: 41px;
+    font-size: 28px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    line-height: 41px;
+    color: #1E2023;
+    opacity: 1;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.nick>.medal{
+    height: 48px;
+    width: 122px;
+    padding-left: 8px;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.nick>.medal>img{
+    height: 48px;
+    width: 122px;
+    z-index: 1;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.nick>.medal>.medal_Name{
+    z-index: 2;
+    position: absolute;
+    left: 378px;
+    top: 39px;
+    width: 60px;
+    height: 29px;
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 29px;
+    color: #F98958;
+    opacity: 1;
+}
+.container>header>.mine>.inform_Bar>.head_Inform>.head_Tag>.tag_Text{
+    height: 29px;
+    width: 280px;
+    font-family: Source Han Sans CN;
+    line-height: 29px;
+    color: #8A93A1;
+    padding-top: 13px;
+    font-size:20px ;
+}
+.container>header>.mine>.inform_Bar>.more_Inform{
+    height: 126px;
+    width: 690px;
+    display: flex;
+    flex-direction:row ;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a{
+    width: 96px;
+    height: 126px;
+    display: flex;
+    flex-direction:column ;
+    padding: 16px 52px 25px 30px;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.fans_Num{
+    height: 45px;
+    width: 96px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    text-align: center;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.my_Fans{
+    height: 45px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    color: #8A93A1;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.follows_Num{
+    height: 45px;
+    width: 96px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    text-align: center;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.my-Follow{
+    height: 45px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    color: #8A93A1;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.collects_Num{
+    height: 45px;
+    width: 96px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    text-align: center;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.my_Collect{
+    height: 45px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    color: #8A93A1;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.visitors_Num{
+    height: 45px;
+    width: 96px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    text-align: center;
+}
+.container>header>.mine>.inform_Bar>.more_Inform>a>.my_Visitor{
+    height: 45px;
+    width: 96px;
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    line-height: 45px;
+    color: #8A93A1;
+}
+section{
+    margin-top: 61px;
+    height: 100%;
+    width: 750px;
+}
+section>.photos_Collect{
+
+    
+}
+section>.photos_Collect>.my_Collect{
+    height: 47px;
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+}
+section>.photos_Collect>.my_Collect>div{
+    height: 40px;
+    width: 8px;
+    margin-top: 4px;
+    background-color: #60A7F6;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+section>.photos_Collect>.my_Collect>span{
+    height: 47px;
+    width: 192px;
+    padding-left: 4px;
+    font-family: Source Han Sans CN;
+    line-height: 47px;
+    font-size: 32px;
+    font-weight: bold;
+}
+section>.photos_Collect>.collect_Content{
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    margin-left: 16px;
+}
+section>.photos_Collect>.collect_Content>a{
+    height: 330px;
+    width: 280px;
+    padding-left: 14px;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area{
+    height: 210px;
+    width: 280px;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.photos_Img{
+    height: 210px;
+    width: 280px;
+    border-radius: 8px;
+    z-index: 1;
+    background-color: gray;
+    border-radius: 8px;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.photos_Img>img{
+    height: 210px;
+    width: 280px;
+    z-index: 1;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.more_Num{
+    height: 29px;
+    width: 63px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 208px;
+    top:-37px ;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.more_Num>.more_Photo{
+    height: 28px;
+    width: 28px;
+    padding-right: 1px;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.more_Num>.more_Photo>img{
+    height: 28px;
+    width: 28px;
+}
+section>.photos_Collect>.collect_Content>a>.photos_Area>.more_Num>span{
+    height: 28px;
+    width: 34px;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-size: 20px;
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+    opacity: 1;
+}
+
+section>.photos_Collect>.collect_Content>a>.tag_Sign{
+    margin-top: 20px;
+    font-size:24px ;
+    font-family:Source Han Sans CN ;
+    font-weight: 400;
+    line-height: 36px;
+    opacity: 1;
+}
+section>.my_Dyna{
+    height: 100%;
+    width: 750px;
+}
+section>.my_Dyna>.time_ThreadBar{
+    height: 47px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+section>.my_Dyna>.time_ThreadBar>div{
+    height: 40px;
+    width: 8px;
+    background-color:#60A7F6 ;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+section>.my_Dyna>.time_ThreadBar>span{
+    width: 128px;
+    height: 47px;
+    font-size: 32px;
+    line-height: 47px;
+    padding-left: 4px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #1E2023;
+    opacity: 1;
+}
+section>.my_Dyna>.dyna_Content{
+    height: 100%;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 21px;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Main{
+    width: 153px;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Main>.dyna_Time{
+    width: 153px;
+    height: 47px;
+    display: flex;
+    flex-direction:row;
+    padding-left: 30px;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Main>.dyna_Time>.dyna_Month{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Main>.dyna_Time>.dyna_Date{
+    font-family: SourceHanSansCN-Medium;
+    font-size: 24px;
+    color: #8A93A1;
+    line-height: 36px;
+    margin-top:3px;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Main>.dyna_Thread{
+    width: 0px;
+    height: 476px;
+    border: 1px solid #8A93A1;
+    opacity: 1;
+    margin-left: 67px; 
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.dyna_Tag{
+    height: 109px;
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+}
+
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.dyna_Tag>.picture_Tag1{
+    width: 308px;
+    height: 41px;
+    font-size: 28px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 41px;
+    color: #1E2023;
+    opacity: 1;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.dyna_Tag>.picture_Tag2{
+    width: 557px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8A93A1;
+    opacity: 1;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content{
+    width: 557px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content>.picture_Bar1{
+    width: 272px;
+    height: 100%;
+    padding-right: 14px;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content>.picture_Bar1>img{
+    width: 272px;
+    height: 100%;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content>.picture_Bar2{
+    width: 271px;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content>.picture_Bar2>a{
+    height: 163px;
+    width: 271px;
+    padding-bottom: 14px;
+}
+section>.my_Dyna>.dyna_Content>.dyna_Picture>.picture_Content>.picture_Bar2>a>img{
+    height: 163px;
+    width: 271px;
+}
+
