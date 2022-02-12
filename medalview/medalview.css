@@ -1,0 +1,181 @@
+body{
+    margin:0px auto;
+    padding:0px;
+}
+.container{
+    height: 100%;
+    width: 750px;
+}
+.container>header{
+    height: 176px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.container>header>.time_Banner{
+    height: 88px;
+    width: 750px;
+}
+.container>header>.medal_Banner{
+    height: 88px;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.container>header>.medal_Banner>.back_Button{
+    height: 44px;
+    width: 44px;
+    padding: 22px 0px 22px 24px;
+}
+.container>header>.medal_Banner>.back_Button>img{
+    height: 44px;
+    width: 44px;
+}
+.container>header>.medal_Banner>.level_Medal{
+    height: 47px;
+    width: 128px;
+    padding: 19px 0px 22px 243px;
+}
+.container>header>.medal_Banner>.level_Medal>span{
+    width: 140px;
+    height: 47px;
+    font-size: 32px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    line-height: 47px;
+    color: #1E2023;
+    opacity: 1;
+}
+.container>header>.medal_Banner>.share_Button{
+    height: 44px;
+    width: 44px;
+    padding: 22px 24px 22px  243px;
+}
+.container>header>.medal_Banner>.share_Button>img{
+    height: 44px;
+    width: 44px;
+}
+.container>section{
+    height: 100%;
+    width: 750px;
+}
+.container>section>.mine_Banner{
+    height: 145px;
+    width: 750px;
+    display: flex;
+    flex-direction:row ;
+}
+.container>section>.mine_Banner>.head_Img{
+    height: 60px;
+    width: 60px;
+    padding: 40px 12px 0px 30px;
+}
+.container>section>.mine_Banner>.head_Img>img{
+    height: 60px;
+    width: 60px;
+}
+.container>section>.mine_Banner>.nick_Name{
+    height: 41px;
+    width: 196px;
+    padding-top:49px ;
+}
+.container>section>.mine_Banner>.nick_Name>span{
+    width: 196px;
+    height: 41px;
+    font-size: 28px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    line-height: 41px;
+    color: #1E2023;
+    opacity: 1;
+}
+.container>section>.mine_Banner>.medal{
+    height: 48px;
+    width: 122px;
+    padding: 46px 0px 0px 8px;
+}
+.container>section>.mine_Banner>.medal>img{
+    height: 48px;
+    width: 122px;
+}
+.container>section>.now_Medal{
+    height: 440px;
+    width: 750px;
+}
+.container>section>.now_Medal>.medal_Img{
+    height: 440px;
+    width: 644px;
+    padding-left: 53px;
+}
+.container>section>.now_Medal>.medal_Img>img{
+    height: 440px;
+    width: 644px;
+    z-index: 1;
+}
+.container>section>.now_Medal>.medal_Img>.now_Level{
+    width: 132px;
+    height: 40px;
+    background: rgba(236, 132, 39, 0.24);
+    opacity: 0.8;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    z-index: 8;
+    position: relative;
+    top: -418px;
+    left: 14px;
+}
+.container>section>.now_Medal>.medal_Img>.now_Level>span{
+    width: 80px;
+    height: 29px;
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 29px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.container>section>.now_Medal>.medal_Img>.medal_Inform{
+    height: 151px;
+    width: 161px;
+    display: flex;
+    flex-direction:column ;
+    z-index:10;
+    position: relative;
+    left: 34px;
+    top: -360px;
+}
+.container>section>.now_Medal>.medal_Img>.medal_Inform>.main_Title{
+    width: 90px;
+    height: 45px;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 19px;
+}
+.container>section>.now_Medal>.medal_Img>.medal_Inform>.other_value{
+    width: 175px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+}
+.container>section>.now_Medal>.medal_Img>.medal_Inform>.other_value>a{
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 29px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 11px;
+}
+.container>section>.level_Right{
+    height: 325px;
+    width: 750px;
+    display: flex;
+    flex-direction:column ;
+}
+.container>section>.level_Right>.main_Title{
+    
+}
